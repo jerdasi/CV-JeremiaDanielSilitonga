@@ -178,16 +178,24 @@ aside i {
 #content table {
     border-collapse: collapse;
     margin: 24px;
+    width: 100%;
+}
+
+.table-wrapper {
     overflow: auto;
 }
 
-tr {
-    width: 100%;
+#keterampilan {
+    
 }
 
 th, td {
     border: 1px solid #fff;
     padding: 16px 24px;
+}
+
+td li {
+    width: 100%;
 }
 
 td:nth-of-type(1), th:nth-of-type(1){
@@ -208,6 +216,10 @@ footer {
         display: block;
     }
 
+    aside, #content {
+        padding: 8px;
+    }
+
     aside {
         width: 100%;
     }
@@ -220,6 +232,14 @@ footer {
         width: auto;
         margin: 0;
         text-align: center;
+    }
+
+    #content article > p, .list-work > p {
+        padding: 4px;
+    }
+
+    .list-work h3, .list-pendidikan h3 {
+        padding: 0px 4px;
     }
 
     .list {
@@ -240,5 +260,11 @@ footer {
         text-align: justify;
     }
 
-
+    td:nth-of-type(1), th:nth-of-type(1){
+        width: auto;
+    }
+    
+    td:nth-of-type(2), th:nth-of-type(2){
+        width: auto;
+    }
 }
