@@ -12,9 +12,29 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+header div {
+    flex-basis: 15%;
+    padding: 1rem;
+}
+
+header div p{
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+header div span {
+    display: none;
+}
+
 nav {
-    width: 100%;
-    border: 1px solid #FFC600;
+    flex-basis: 50%;
 }
 
 nav ul {
@@ -73,7 +93,6 @@ aside img {
 
 aside article {
     margin-top: 24px;
-    border: 1px solid black;
     background: #fff;
 }
 
@@ -213,8 +232,18 @@ footer {
         display: block;
     }
 
-    nav li {
-        border: 1px solid #FFC600;
+    header div {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 100%;
+    }
+
+    header div span {
+        display: block;
+    }
+
+    nav {
+        display: none;
     }
 
     aside, #content {
