@@ -235,16 +235,22 @@ footer {
     }
 
     #content article > p, .list-work > p {
-        padding: 4px;
+        padding: 8px;
     }
 
     .list-work h3, .list-pendidikan h3 {
-        padding: 0px 4px;
+        padding: 0px 8px;
+        padding-top: 8px;
+    }
+
+    .list-work h5{
+        margin: 0px 8px;
     }
 
     .list {
         display: block;
         text-align: center;
+        margin: 8px;
     }
 
     .list h5{
