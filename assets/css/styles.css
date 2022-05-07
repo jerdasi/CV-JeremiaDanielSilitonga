@@ -35,7 +35,7 @@ nav li:hover{
     color: white;
 }
 
-nav li a {
+li a {
     color: black;
     text-decoration: none;
 }
@@ -185,9 +185,6 @@ aside i {
     overflow: auto;
 }
 
-#keterampilan {
-    
-}
 
 th, td {
     border: 1px solid #fff;
@@ -216,8 +213,12 @@ footer {
         display: block;
     }
 
+    nav li {
+        border: 1px solid #FFC600;
+    }
+
     aside, #content {
-        padding: 8px;
+        padding: 16px 8px;
     }
 
     aside {
@@ -229,7 +230,7 @@ footer {
     }
 
     #content article h1 {
-        width: auto;
+        width: 100%;
         margin: 0;
         text-align: center;
     }
